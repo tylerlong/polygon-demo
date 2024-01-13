@@ -7,6 +7,9 @@
     "lint": "eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write . && sort-package-json",
     "test": "tsx -r dotenv-override-true/config src/index.ts"
   },
+  "dependencies": {
+    "axios": "^1.6.5"
+  },
   "devDependencies": {
     "@types/node": "^20.11.0",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
